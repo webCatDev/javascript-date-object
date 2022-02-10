@@ -3,7 +3,7 @@ const clock=document.getElementById("myClock");
 
 let isim= prompt("İsminiz:")
 
-isimText.textContent=isim;
+isimText.textContent=isim?isim:"Ziyaretçi";
 
 function render(){
     const date = new Date();
